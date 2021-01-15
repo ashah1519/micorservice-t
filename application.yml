@@ -1,0 +1,11 @@
+my:
+    greeting: Hello World from spring cloud config server
+    list:
+    values: one,two,three,four, five, six,sever,eight,nine,ten
+    
+db:
+    connection: connectionString-from-config-server
+    host: 127.0.0.1
+    port: 1100
+    
+    
